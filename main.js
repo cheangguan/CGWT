@@ -1,6 +1,6 @@
 function maponclick() {
     document.getElementById("inf").style.visibility = "visible";
-    document.getElementById("infh").innerHTML='ÕýéT´óÌÃ';
+    document.getElementById("infh").innerHTML='æ­£é–€å¤§å ‚';
 }
 
 
