@@ -4,6 +4,8 @@ span:active { color:red;
 
 }
 
-#inf{position:absolute; z-index:2; left:0px; top:1400px;color:red;margin:50px; background-color:white;width:1000px; height:200px;visibility = "hidden";}
+#inf{position:absolute; z-index:2; left:0px; top:1400px;color:red;margin:50px; background-color:white;width:1000px; height:200px;
+visibility=hidden;
+}
 
-#datang{background-color:red; }
+
