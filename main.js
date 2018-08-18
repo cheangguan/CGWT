@@ -1,6 +1,6 @@
-document.write("<p>5</p>");
-$("map").css("height",($(window).height())-100)
-$("map").append("</br>");
-$("map").append(($(window).height()));
-$("map").append("</br>");
-$("map").append($("map").css("height"));
+var pageheight=document.documentElement.clientHeight;
+var mapheight=String(pageheight-100)+"px";
+var mapheighttext=document.createTextNode(mapheight);
+document.getElementById("map").style.height=
+mapheight;
+document.getElementById("p1").appendChild(mapheighttext);
