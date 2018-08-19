@@ -10,7 +10,24 @@ page{
 top{
   background-color:orange;
   height:50px;
+  display:flex;
   
+   }
+
+toggle
+   {
+  width:50px;
+  margin:5px;
+  margin-left: 10px;
+  border:solid 5px rgba(255,165,0,1);
+  text-align:center;
+   }
+
+search
+   {
+  width:100%;
+  margin:5px;
+  border-bottom:solid 1px brown;
    }
 
 map{
