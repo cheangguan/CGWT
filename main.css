@@ -56,3 +56,15 @@ iot{position:absolute;
     z-index:1;
   border:solid 1px brown;
 }
+
+sidebar{
+  position:absolute;
+    top:0px;
+    left:0px;
+    z-index:2;
+  background-color:orange;
+  border:solid 1px brown;
+    visibility:hidden;
+  
+}
+
