@@ -27,6 +27,7 @@ search
    {
   width:100%;
   margin:5px;
+  margin-right: 100px;
   border-bottom:solid 1px brown;
    }
 
@@ -41,3 +42,17 @@ bottom{
   
   
       }
+
+getloc{position:absolute;
+    top:80px;
+    left:700px;
+    z-index:1;
+  border:solid 1px brown;
+}
+
+iot{position:absolute;
+    top:120px;
+    left:700px;
+    z-index:1;
+  border:solid 1px brown;
+}
