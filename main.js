@@ -46,7 +46,7 @@ document.getElementById("getloc").onclick = function()
 
 document.getElementById('map').scrollTop =1;
 document.getElementById('map').scrollLeft =120;
-document.getElementById('mapf').src="GFdw.png";
+document.getElementById('mapf').src="/CGWT/GFdw.png";
 document.getElementById("locinfo").style.visibility="visible"; 
 };
 
@@ -54,21 +54,21 @@ document.getElementById("bf").onclick = function()
 {
 
 
-document.getElementById('mapf').src="UF.png";
+document.getElementById('mapf').src="/CGWT/UF.png";
 
 };
 document.getElementById("gf").onclick = function() 
 {
 
 
-document.getElementById('mapf').src="GFdw.png";
+document.getElementById('mapf').src="/CGWT/GFdw.png";
 
 };
 document.getElementById("1f").onclick = function() 
 {
 
 
-document.getElementById('mapf').src="1F.png";
+document.getElementById('mapf').src="/CGWT/1F.png";
 
 };
 
