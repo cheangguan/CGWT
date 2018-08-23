@@ -1,7 +1,5 @@
-
-
 var pageheight=document.documentElement.clientHeight;
-var pagewidth=document.documentElement.clientwidth;
+var pagewidth=document.documentElement.clientWidth;
 
 
 var pageheight=document.documentElement.clientHeight;
@@ -22,10 +20,21 @@ document.getElementById("toggle").onclick = function()
 {
   document.getElementById("sidebar").style.visibility="visible"; 
   document.getElementById("sidebar").style.width=iconwidth;
-  document.getElementById("sidebar").style.height=String(pageheight-2)+"px";;                                   
+  document.getElementById("sidebar").style.height=String(pageheight-2)+"px";;   
+document.getElementById("functionbar").style.visibility="hidden";                                  
 };
 
-document.getElementById("map").onclick = function() 
+document.getElementById("mapf").onclick = function() 
 {
-  document.getElementById("sidebar").style.visibility="hidden";                                 
+  document.getElementById("sidebar").style.visibility="hidden"; 
+  document.getElementById("functionbar").style.visibility="hidden";                                 
+};
+
+document.getElementById("buttom").onclick = function() 
+{
+document.getElementById("functionbar").style.visibility="visible"; 
+document.getElementById("functionbar").style.width=String(pagewidth-2)+"px";
+document.getElementById("functionbar").style.height=String(pageheight-pageheight*0.3)+"px";;         
+document.getElementById("functionbar").style.top=String(pageheight*0.3-2)+"px";; 
+document.getElementById("sidebar").style.visibility="hidden";         
 };
