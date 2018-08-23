@@ -54,8 +54,16 @@ position: absolute;
 top: 120px;
 }
 
+lavel{position:absolute;
 
+z-index: 1;
+position: absolute;
+top: 160px;
 
+background-color:white;
+}
+
+lavel>*{border:solid 1px brown;text-align:center;padding:5px;}
 
 
 
@@ -64,7 +72,7 @@ sidebar{
   position:absolute;
     top:0px;
     left:0px;
-    z-index:2;
+    z-index:4;
   background-color:white;
   border:solid 1px brown;
     visibility:hidden;
@@ -122,4 +130,18 @@ height:1200px;
 width:848px;
 
 }
+bottom>div{text-align:center;}
 
+locinfo
+{ 
+display:flex;
+flex-direction:row;
+background-color:white;
+z-index:3;
+position:absolute;
+border:solid 1px orange;
+visibility:hidden;
+overflow:auto;
+}
+
+locinfo>*{margin:10px;}
