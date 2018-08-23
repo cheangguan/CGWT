@@ -17,19 +17,20 @@ toggle
    {
   width:50px;
   margin:5px;
-  border:solid 5px brown;
+  border:solid 5px orange;
    }
 
 search
    {
   width:100%;
   margin:5px;
-  border-bottom:solid 1px brown;
+  border-bottom:solid 1px brown;over-flot
    }
 
 map{
   border:solid 1px brown;
   height:510px;
+overflow:auto;
    }
 
 bottom{
@@ -37,26 +38,34 @@ bottom{
   height:50px;
       }
 
-getloc{position:absolute;
-    top:80px;
-    left:700px;
-    z-index:1;
-  border:solid 1px brown;
+getloc{
+position:absolute;
+     top: 80px;
+
+z-index: 1;
+position: absolute;
+
 }
 
 iot{position:absolute;
-    top:120px;
-    left:700px;
-    z-index:1;
-  border:solid 1px brown;
+
+z-index: 1;
+position: absolute;
+top: 120px;
 }
+
+
+
+
+
+
 
 sidebar{
   position:absolute;
     top:0px;
     left:0px;
     z-index:2;
-  background-color:orange;
+  background-color:white;
   border:solid 1px brown;
     visibility:hidden;
   display:flex;
@@ -86,3 +95,31 @@ soc>*{
 
 verson{border-bottom:solid 1px orange;
 text-align:center;}
+
+functionbar{
+  position:absolute;
+    top:0px;
+    left:0px;
+    z-index:3;
+  background-color:orange;
+  border:solid 1px brown;
+    visibility:hidden;
+  display:flex;
+  flex-direction:column;
+  overflow:auto;
+}
+
+functionbar>div{text-align:center;}
+
+
+ftitle{text-align:center;
+border-bottom:solid 1px orange;}
+
+#mapf
+{
+border:solid 1px red;
+height:1200px; 
+width:848px;
+
+}
+
